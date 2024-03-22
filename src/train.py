@@ -12,7 +12,7 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import dataset
-from PGNet import PGNet
+from BADIS import BADIS
 from apex import amp
 import torch.distributed as dist
 from utils.lr_scheduler import LR_Scheduler
@@ -152,4 +152,4 @@ def train(Dataset, Network):
 
 
 if __name__ == '__main__':
-    train(dataset, PGNet)
+    train(dataset, BADIS)

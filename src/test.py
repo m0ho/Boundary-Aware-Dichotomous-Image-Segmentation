@@ -11,7 +11,7 @@ sys.dont_write_bytecode = True
 import torch
 import torch.nn.functional as F
 import dataset
-from PGNet import PGNet
+from BADIS import BADIS
 from edge_prediction import label_edge_prediction 
 from tqdm import *
 
@@ -62,4 +62,4 @@ def test(Dataset, Network):
 
 
 if __name__ == '__main__':
-    test(dataset, PGNet)
+    test(dataset, BADIS)

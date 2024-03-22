@@ -24,7 +24,7 @@ creat Folder `model`,`pre`,`src`
 |   `-- swin224.pth
 |-- result
 `|`-- src
-    |-- PGNet.py
+    |-- BADIS.py
     |-- Res.py
     |-- ResNet_models_Custom.py
     |-- Swin.py

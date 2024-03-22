@@ -579,9 +579,9 @@ class FPT(nn.Module):
         weight_init(self)
 
 
-class PGNet(nn.Module):
+class BADIS(nn.Module):
     def __init__(self, cfg=None):
-        super(PGNet, self).__init__()
+        super(BADIS, self).__init__()
         self.cfg      = cfg
         self.test_conv = nn.Conv2d(3, 1, kernel_size=3, stride=1, padding=1)
         self.decoder  = decoder_BG()
