@@ -1,3 +1,8 @@
+# Boundary-Aware-Dichotomous-Image-Segmentation(v2)
+## Introduction
+This repo is the official implementation of "Boundary-Aware Dichotomous Image Segmentation". It currently includes code and models for the Dichotomous-Image-Segmentation task.
+## Experiment
+![alt text](image.png)
 ## Usage
 ### Requirements
 * Pytorch 1.13.1
@@ -6,7 +11,7 @@
 * Apex
 * Timm
 ### How to start
-creat Folder `model`,`pre`,`src`,
+creat Folder `model`,`pre`,`src`
 ### Directory
 
 ````
