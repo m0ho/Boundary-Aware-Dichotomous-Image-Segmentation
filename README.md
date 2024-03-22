@@ -1,12 +1,12 @@
 ## Usage
 ### Requirements
-* Python 3.8
-* Pytorch 1.7.1
+* Pytorch 1.13.1
 * OpenCV
 * Numpy
 * Apex
 * Timm
-
+### How to start
+creat Folder `model`,`pre`,`src`,
 ### Directory
 
 ````
@@ -18,7 +18,7 @@
 |   |-- resnet18.pth
 |   `-- swin224.pth
 |-- result
-`-- src
+`|`-- src
     |-- PGNet.py
     |-- Res.py
     |-- ResNet_models_Custom.py
@@ -39,21 +39,18 @@
 ````
 
 ### Train
+For train, download the requried weight [swin224.pth](https://drive.google.com/file/d/1rH37swroDKhKYNDtmQPXvxilZgdi6Qap/view?usp=sharing),[resnet18.pth](https://drive.google.com/file/d/1hNk19P6HTFWaiCQFQuru0SXYiSP4rtFJ/view?usp=drive_link)
 ```
 cd src
 ./train.sh
 ```
 
 ### Test
-The trained model can be download here: [Google Drive](https://drive.google.com/drive/folders/1hXwCvrdmvkaRePXWPTw5tjFXmrrzHPtt?usp=sharing)
-
+For train, download the requried weight [model-56.pth](https://drive.google.com/file/d/1PmJkQot8RoZcWOl1JmCaiTs6eESCrhBM/view?usp=drive_link)
 ```
 cd src
 ./test.sh
 ```
-* After testing, saliency maps will be saved in RESULT folder
-
-
 
 ## Citation
 ```
